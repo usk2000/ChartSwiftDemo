@@ -20,6 +20,7 @@
 		A8A45904251783F20026CEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8A45907251783F20026CEAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8A45909251783F20026CEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8A45910251786D10026CEAB /* ChartSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ChartSwift; path = ../ChartSwift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				A8A458FF251783F00026CEAB /* ChartSwiftDemo */,
+				A8A45910251786D10026CEAB /* ChartSwift */,
 				A8A458FE251783F00026CEAB /* Products */,
 			);
 			sourceTree = "<group>";
