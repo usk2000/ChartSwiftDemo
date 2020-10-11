@@ -12,6 +12,9 @@ struct ChartSwiftDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.barBackground, Color.init(white: 0.95))
+                .environment(\.barHeight, 30)
+                .environment(\.labelWidth, 45)
         }
     }
 }

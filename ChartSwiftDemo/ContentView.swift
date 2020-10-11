@@ -11,14 +11,15 @@ import ChartSwift
 struct ContentView: View {
     
     var items: [ChartItem] = [
-        .init(title: "タイトル", value: 0.8, text: "50%", color: .green),
-        .init(title: "タイトル２", value: 0.5, text: "30%", color: .blue),
-        .init(title: "タイトル３", value: 0.1, text: "10%", color: .blue)
+        .init(title: "Title", value: 0.8, text: "50%", color: .green),
+        .init(title: "Title2", value: 0.5, text: "30%", color: .blue),
+        .init(title: "Title3", value: 0.1, text: "10%", color: .blue)
     ]
     
     var body: some View {
         VStack {
             BarChart.init(items: items)
+                .padding(.top)
             Spacer()
         }
         
@@ -30,6 +31,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
             .environment(\.barBackground, Color.init(white: 0.95))
             .environment(\.barHeight, 30)
-            .environment(\.labelWidth, 65)
+            .environment(\.labelWidth, 55)
     }
 }
